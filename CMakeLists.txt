@@ -1,3 +1,6 @@
-﻿cmake_minimum_required (VERSION 3.8)
+﻿cmake_minimum_required (VERSION 3.10)
 
-add_subdirectory ("UnitySharedMemory")
+add_subdirectory("TinyShmem")
+add_subdirectory("UnitTest")
+
+enable_testing() 
